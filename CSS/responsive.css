@@ -1,0 +1,372 @@
+
+@media only screen and (max-width: 1400px){
+.post-img {
+    width: 240px;
+    height: 215px;
+}
+.blog-bg{
+    height: 430px;
+}
+.card-client{
+    min-height: 600px;
+}
+.card-heading {
+    padding: 0px 20px;
+}
+.prev-btn{
+    
+    left: 84% !important;
+}
+.slider-2 .slick-prev:before {
+    
+    left: 1170px !important;
+}
+}
+
+@media only screen and (max-width: 1200px){
+    
+    .about-section .title-with-line::after {
+        left: 40%;
+        width: 20%;
+    }
+    .card-recent {
+        min-height: 370px;
+    }
+    
+    .card-client{
+        min-height: 640px;
+    }
+    .card-heading {
+            padding: 0px 15px;
+    }
+    .slider-2 .slick-prev:before {
+    
+        left: 1080px !important;
+    }
+   
+}
+
+@media only screen and (max-width: 991px){
+  .right-text {
+       top: 17%;
+  }
+  .heading-sm {
+     font-size: 30px;
+     line-height: 35px;
+}
+.heading-bg{
+    font-size: 55px;
+    line-height: 70px;
+}
+.heading-sm1{
+    font-size: 30px;
+    line-height: 35px;
+}
+.home-btn {
+    height: 100px;
+}
+.title{
+    font-size: 40px;
+    line-height: 50px;
+}
+.about-section .title-with-line::after {
+    left: 38%;
+    width: 23%;
+}
+
+.service-section .title-with-line::after {
+    bottom: -5px;
+    left: 37%;
+    width: 26%;
+}
+
+.card-para {
+    font-size: 18px;
+    line-height: 20px
+}
+.c-t {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.c-tetle {
+    font-size: 25px;
+    line-height: 30px;
+}
+.solution-section .title {
+    margin-left: 40px;
+}
+
+.blog{
+    margin-top: 15px;
+}
+
+/* slider */
+.prev-button {
+    left: 81% !important;
+}
+.next-button {
+    right: 35px !important;
+}
+/*client*/
+.card-client{
+    min-height: 530px;
+}
+.prev-btn{
+    
+    left: 75% !important;
+}
+/* contact*/
+select {
+    width: 30% !important;
+}
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .nav-mobile {
+        display: block;
+       
+   }
+    nav {
+        width: 100%;
+        padding: 60px 0 15px;
+        position: relative;
+   }
+    nav ul {
+        display: none;
+        position: absolute;
+        width: 100%;
+        background: #ffffff;
+       
+       
+        padding: 20px 0px;
+        padding-bottom: 50px;
+        z-index: 10;
+   }
+    nav ul li {
+        float: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+   }   
+    nav ul li a {
+        padding: 15px;
+        line-height: 20px;
+        background: #ffffff;
+        color: #101010 !important;
+   }
+   nav ul li a img{
+    color: #101010;
+   }
+    nav ul li ul li a {
+        padding-left: 30px;
+   }
+   
+  }
+  
+  @media screen and (min-width: 991px) {
+    .nav-list {
+        display: block !important; 
+   }
+  } 
+
+  @media only screen and (max-width: 767px){
+    .heading-sm {
+        font-size: 25px;
+        line-height: 30px;
+   }
+   .heading-bg{
+       font-size: 40px;
+       line-height: 55px;
+   }
+   .heading-sm1{
+       font-size: 25px;
+       line-height: 30px;
+   }
+   .title{
+    font-size: 30px;
+    line-height: 35px;
+}
+.para{
+    line-height: 25px;
+    padding: 5px 10px;
+    margin: 0px 5px;
+}
+.solution-section .title {
+    padding: 5px 30px;
+    margin-left: 30px;
+}
+.c-tetle {
+    font-size: 20px;
+}
+/* slider */
+.prev-button {
+    left: 83% !important;
+}
+.next-button {
+    right: 20px !important;
+}
+/* clieent sectin*/
+.prev-btn{
+    
+    left: 72% !important;
+    top: -7% !important;
+}
+.next-btn{
+    right: 90px !important;
+       top: -7% !important;
+}
+/* contact */
+select {
+    width: 45% !important;
+}
+}
+  
+  @media only screen and (max-width: 576px){
+    .right-text {
+        left: 48%;
+    }
+    .home-btn {
+        width: 35px !important;
+        height: 110px;
+    }
+    .heading-sm {
+        font-size: 20px;
+        line-height: 25px;
+   }
+   .heading-bg{
+       font-size: 35px;
+       line-height: 40px;
+   }
+   .heading-sm1{
+       font-size: 20px;
+       line-height: 25px;
+   }
+   .title{
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .about-card{
+    align-items: center;
+    justify-content: center;
+  }
+.about-card .card-t{
+    font-size: 35px;
+    line-height: 50px;
+  }
+  .text-white {
+    margin: 15px 0px;
+}
+.card-para{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.solution-section .title {
+    margin-left: 50px;
+    padding: 5px 15px;
+}
+/* slider */
+.prev-button {
+    left: 77% !important;
+    top: -25% !important;
+}
+.next-button {
+    right: 20px !important;
+    top: -25% !important;
+}
+/* clieent sectioon*/
+.prev-btn{
+    
+    left: 65% !important;
+    top: -7% !important;
+    width: 35px;
+    height: 35px;
+}
+.next-btn{
+    right: 90px !important;
+       top: -7% !important;
+       width: 35px;
+       height: 35px;
+}
+/* contact */
+form {
+    width: 80% !important;
+}
+.form-group2{
+    flex-direction: column;
+}
+
+select {
+    width: 50% !important;
+}
+
+/* Foooter*/
+.footer-heading {
+    margin-top: 20px;
+    padding: 0px 25px;
+}
+.footer-right{
+    padding: 0px 25px;
+}
+footer img{
+    padding: 0px 25px;
+}
+}
+
+@media only screen and (max-width: 530px){
+    .post-img{
+        width: 450px;
+        height: 300px;
+    }
+    .blog-2{
+        flex-direction: column;
+    }
+    .blog-text {
+        padding-top: 20px;
+    }
+    .prev-btn{
+    
+        left: 60% !important;
+        top: -15% !important;
+    }
+    .next-btn{
+        right: 60px !important;
+           top: -15% !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .card-recent{
+        padding: 15px 30px;
+    }
+.recent-section .slick-slider{
+    padding-left: 0px;
+}
+.card-solu {
+       padding: 15px 30px;
+}
+.solution-section .slick-slider{
+    padding-left: 0px;
+}
+.solution-section .title {
+    margin-left: 0px;
+    padding: 5px 10px;
+}
+.next-button {
+    right: 10px !important;
+}
+.prev-button {
+    left: 73% !important;
+}
+.client-section .slick-slider{
+    padding-left: 0px;
+}
+.card-client{
+    min-height: 400px;
+}
+}

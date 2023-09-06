@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job_Portal website</title>
+
+     <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/responsive.css" />
+    <link rel="icon" href="./images/favicon.png.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">  --> 
+
+</head>
+<body>
+    <section class="job_list">
+    <header class="navigation blog-nav">
+        <div class="nav-container">
+          <div class="brand">
+            <a href="#!"> <img src="./images/footer-logo.png" alt="logo"> </a>
+          </div>
+          <nav>
+            <div class="nav-mobile"><a id="navbar-toggle" href="#!"><span></span></a></div>
+            <ul class="nav-list" id="navlist">
+              <li>
+                <a href="./index.html" class="smooth-link activ-1" onclick="closeNavbar()">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="smooth-link" onclick="closeNavbar()">About Us</a>
+              </li>
+             
+              <li>
+                <a href="#" class="smooth-link" onclick="closeNavbar()">Service</a>
+              </li>
+    
+              <li>
+                <a href="#" class="smooth-link" onclick="closeNavbar()">Industries we cater</a>
+              </li>
+
+              <li>
+                <a href="./blog.html" class="smooth-link activ-2" onclick="closeNavbar()">Blog</a>
+              </li>
+
+              <li>
+                <a href="#" class="smooth-link" onclick="closeNavbar()"><img src="images/search-2.png" alt="search"></a>
+              </li>
+            
+              <li>
+                <a  class="activ" aria-current="page" href="#download" onclick="closeNavbar()">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+         
+        </div>
+    </header>
+    </section>
+     
+   <section class="job-list">
+     <div class="container">
+        <div class="row mt-3 input-section">
+            
+            
+                <div class="col">
+                  
+                  <input type="text" class="form-control" placeholder="Search job here" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Job type" aria-label="First name">
+                  </div>
+                <div class="col">
+                  <input type="text" class="form-control" placeholder="Location" aria-label="Last name">
+                </div>
+                <div class="col">
+                   <button class="explore"> Explore jobs </button> 
+                </div>
+              
+        </div>
+     </div>
+
+
+       <div class="container">
+        <div class="row mt-sm-5 job-card">
+
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-1.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Sr.Accountant</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$3000</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+    
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-2.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Backend Developer</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$3500</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-3.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Backend Developer</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$4500</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                  <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+              </div>
+            </div>
+          </div>
+
+        
+      
+
+       
+        
+
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-4.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Sr.Accountant</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$3000</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+    
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-2.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Backend Developer</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$3500</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+               
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-3.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Backend Developer</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$4500</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+              </div>
+            </div>
+          </div>
+
+        
+       
+
+      
+
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-4.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Sr.Accountant</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$3000</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-2.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Backend Developer</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$3500</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+    
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-3.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Backend Developer</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$4500</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                 <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+              </div>
+            </div>
+          </div>
+
+       
+
+       
+
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-4.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Sr.Accountant</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$3000</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+                
+    
+    
+              </div>
+            </div>
+          </div>
+         
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-2.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Backend Developer</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$3500</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-12 col-sm-6">
+            <div class="card-recent">
+              <img class="img-icon" src="./images/recent-3.png" class="card-img-top"  alt="logo">
+             
+              <div class="card-b job-card">
+                <h5 class="c-t"> Backend Developer</h5>
+                <p class="c-p"> Experience - 3-5 year</p>
+                <p class="c-p">Package</p>
+                
+                <div class="d-flex align-items-left">
+                <h1 class="card-num">$4500</h1>
+                <p class="card-sm">Per an.</p>
+                </div>
+               
+                <div class="card-butn"> 
+                  <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Apply
+                  </button></div>
+    
+    
+              </div>
+            </div>
+          </div>
+
+      </div>
+      </div>
+
+       <!-- Button trigger modal 
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button>  -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          <div class="modal-text">
+          <img class="img-icon" src="./images/recent-1.png" class="card-img-top"  alt="logo">
+            <div>
+            <h2 class="mt-3"> Sr.Accountant</h2>
+            <p> Experience - 3-5 year</p>
+            </div>
+          </div>
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="modal-b">
+            <h2>Job Description</h2>
+            <p>Welcome to [Website Name], your go-to platform for job seekers and employers. Our mission is to make job searching and hiring effortless, connecting talented individuals with their dream careers and helping businesses find the perfect fit. With personalized services, extensive job listings, and dedicated support, [Website Name] is your pathway to success. Join us today and unlock your full potential!</p>
+          </div>
+      </div>
+      <div class="modal-footer">
+          <div class="modal-left">
+            <p>Package</p>
+            <div class="d-flex">
+              <h2 class="number">$3000</h2>
+              <p>Per an.</p>
+            </div>
+          </div>
+
+          <div class="card-butn"> 
+        <!--    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" data-bs-target="#staticBackdrop">  -->
+           <button type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+              Apply
+            </button></div>
+           
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Vertically centered modal 
+<div class="modal-dialog modal-dialog-centered" id="Vertical-modal">
+  ...
+</div>  -->
+<!-- Button trigger modal 
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Launch static backdrop modal
+</button>  -->
+
+<!-- second Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Upload Your CV</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body modal-2-body">
+          <div class="modal-2">
+            <img src="./images/upload-file.png" alt="upload-file">
+            <h4>Upload file here</h4>
+          </div>
+      </div>
+      <div class="modal-footer modal-2-footer">
+        <button type="button" class="modal-2-btn" data-bs-dismiss="modal">Apply Now</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   </section>
+
+   <footer class="global-section" id="footer">
+        <div class="container">
+         <div class="row">
+           <div class="col-6">
+                <img src="./images/footer-logo.png" alt="logo">
+                <p>your go-to platform for job seekers and <br>employers. Our mission is to make job<br>
+                 searching and hiring effortless, connecting <br> talented individuals with their dream careers<br> and helping businesses  <br>
+                 find the perfect fit. </p>
+           </div>
+           <div class="col-6">
+             <h2 class="footer-heading">Company</h2>
+           <div class="footer-right">
+             <div class="footer-para">
+               <p>About Us</p>
+                 <p> Services </p>
+                 <p>Industries we cater </p>
+             </div>
+              <div class="footer-para right-para">
+               <p>Blog</p>
+               <p>Support</p>
+               <p>Privacy Policy</p>
+              </div>
+           </div>
+     
+          </div>
+     
+     </div>
+     </div>
+     <hr class="line">
+     <div class="container">
+       <div class="row">
+          <div class="footer-text"><h1>© 2023 All Rights Reserved.</h1></div>
+     
+         </div>
+        </div>
+     </footer>
+     
+     
+     
+     
+     
+     
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+         <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+        
+         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+         <script type="text/javascript"
+           src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>  
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+       
+         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       
+         <script src="./JS/Resp.js"> </script>
+       </body>
+       </html>
